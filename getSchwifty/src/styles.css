@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: #18161b;
+  font-family: sans-serif;
+  text-align: center;
+  color: #e0d235;
+  height: 100vh;
+  width: 100vw;
+}
+
+body::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.title {
+  font-family: Permanent Marker;
+  font-size: 5rem;
+  font-weight: 200;
+  text-shadow: 4px 4px 4px rgb(50, 123, 233);
+}
+
+.subtitle {
+  margin-top: -50px;
+  padding-bottom: 5vh;
+  font-family: Permanent Marker;
+  font-size: 1.5rem;
+  font-weight: 50;
+}
+
+.container {
+  margin-left: 5vmin;
+  margin-right: 5vmin;
+}
+
+.search-label {
+  position: relative;
+}
+.container input {
+  width: 75vmin;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(36, 34, 46);
+  border-radius: 12px;
+  outline: none;
+  margin-bottom: 30px;
+}
+.search-icon {
+  position: absolute;
+  top: -5px;
+  font-size: 24px;
+  color: #555;
+  right: 18px;
+}
+
+.error {
+  font-family: Permanent Marker;
+  font-weight: 50;
+  font-size: 1.5rem;
+}
+
+.seasonTitle {
+  font-family: Permanent Marker;
+  font-weight: 100;
+  font-size: 2.5rem;
+  text-align: left;
+}
+
+.seasonOne {
+  margin-left: 10vmin;
+  margin-bottom: 40px;
+  width: 30vmin;
+  height: 50vh;
+  border-radius: 13px;
+}
+
+.seasonImage {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 12px;
+  background: url(img/tiger.png) no-repeat;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.seasonImage:hover {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.text {
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 13px;
+  font-family: Open Sans;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #18161b;
+  background: rgba(237, 255, 75, 0.699);
+}
