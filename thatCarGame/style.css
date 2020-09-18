@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1b24;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+
+body::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+
+.heading {
+    color: white;
+    font-family: arial, sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 30px;
+}
+
+
+.stats {
+    color: white;
+    margin: 30px;
+    background-color: #0f0f0f;
+    border-radius: 3px;
+}
+
+.stats p {
+    font-family: monospace;
+    font-size: 1.5rem;
+    padding: 7px;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    color: yellow;
+}
+
+
+.startBtn {
+    color: white;
+    background-color: rgb(124, 77, 156);
+    font-size: 2rem;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.startBtn:hover {
+    background-color: rgb(124, 77, 156);
+    transform: scale(0.95);
+}
+
+
+.endgame {
+    color: white;
+    margin: 30px;
+    text-align: center;
+}
+
+.endgame P {
+    font-family: monospace;
+    font-size: 3rem;
+    padding: 7px;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+}
